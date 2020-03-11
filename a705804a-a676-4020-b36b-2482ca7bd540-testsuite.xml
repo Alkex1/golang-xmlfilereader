@@ -1,0 +1,153 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1581553542805' stop='1581553757593'>
+    <name>Actions Scenarios</name>
+    <title>Actions Scenarios</title>
+    <test-cases>
+        <test-case start='1581553542806' status='passed' stop='1581553557349'>
+            <name>AC-001: Check that user CAN load Actions page</name>
+            <title>AC-001: Check that user CAN load Actions page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553557349' status='passed' stop='1581553589849'>
+            <name>AC-002: Check that user can create a new action</name>
+            <title>AC-002: Check that user can create a new action</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553589849' status='passed' stop='1581553618094'>
+            <name>AC-003: Check that user CAN delete an action successfully</name>
+            <title>AC-003: Check that user CAN delete an action successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553618094' status='passed' stop='1581553658323'>
+            <name>AC-004: Check that user can add details to an action and actions are recorded</name>
+            <title>AC-004: Check that user can add details to an action and actions are recorded</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553658324' status='passed' stop='1581553674226'>
+            <name>AC-005: Check that user can filter actions by Status</name>
+            <title>AC-005: Check that user can filter actions by Status</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553674226' status='passed' stop='1581553686640'>
+            <name>AC-006: Check that user can filter actions by Assignee</name>
+            <title>AC-006: Check that user can filter actions by Assignee</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553686640' status='passed' stop='1581553699615'>
+            <name>AC-007: Check that user can filter actions by Site</name>
+            <title>AC-007: Check that user can filter actions by Site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553699615' status='passed' stop='1581553733014'>
+            <name>AC-008: Check that user can post an update to the action</name>
+            <title>AC-008: Check that user can post an update to the action</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553733014' status='failed' stop='1581553757592'>
+            <name>CPR-1941 - Check that user can reselect priority after updating</name>
+            <title>CPR-1941 - Check that user can reselect priority after updating</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Actions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected values to be strictly equal:
+                
+                false !== true
+                </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+                
+                false !== true
+                
+                    at Context.&lt;anonymous> (/home/QA-Automation-iAuditor-WebApp/Tests/E2E_Tests/actions.js:253:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,150 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1581553558885' stop='1581553956193'>
+    <name>Inspection Scenarios</name>
+    <title>Inspection Scenarios</title>
+    <test-cases>
+        <test-case start='1581553558885' status='passed' stop='1581553593695'>
+            <name>Check that user CAN load Inspection page</name>
+            <title>Check that user CAN load Inspection page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553593695' status='passed' stop='1581553625999'>
+            <name>Check that user can open web report of an inspection</name>
+            <title>Check that user can open web report of an inspection</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553626000' status='passed' stop='1581553655937'>
+            <name>Check that user can create a sharable link of completed inspection</name>
+            <title>Check that user can create a sharable link of completed inspection</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553655938' status='passed' stop='1581553682964'>
+            <name>Check that user can turn off sharable link of completed inspection</name>
+            <title>Check that user can turn off sharable link of completed inspection</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553682964' status='broken' stop='1581553770467'>
+            <name>Check that a free user sees the Export to PDF limit and user is taken to the Buy iAuditor Premium Page</name>
+            <title>Check that a free user sees the Export to PDF limit and user is taken to the Buy iAuditor Premium Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//button[text()="Buy iAuditor Premium"]") still not displayed after 25000ms</message>
+                <stack-trace>Error: element ("//button[text()="Buy iAuditor Premium"]") still not displayed after 25000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at InspectionsPage.waitAndClick (/home/QA-Automation-iAuditor-WebApp/Tests/CommonMethods/page.js:187:13)
+                    at InspectionsPage.proceedToBuyiAuditorPremium (/home/QA-Automation-iAuditor-WebApp/Tests/CommonMethods/inspectionsPage.js:506:14)
+                    at Context.&lt;anonymous> (/home/QA-Automation-iAuditor-WebApp/Tests/E2E_Tests/inspections.js:96:62)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1581553770468' status='passed' stop='1581553821340'>
+            <name>Check that user can start and complete the inspection</name>
+            <title>Check that user can start and complete the inspection</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553821341' status='passed' stop='1581553839176'>
+            <name>Check that user can archive an inspection</name>
+            <title>Check that user can archive an inspection</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553839177' status='passed' stop='1581553856615'>
+            <name>Check that user can delete archived inspection</name>
+            <title>Check that user can delete archived inspection</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581553856615' status='passed' stop='1581553956191'>
+            <name>Check that user can complete inspection from Public Library Template</name>
+            <title>Check that user can complete inspection from Public Library Template</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='feature' value='Inspection'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.79'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
